@@ -13,9 +13,8 @@
 colab.research.google.com/drive/1xNL2mKBvvpMRcw5_OU7RbD-xKz1CG_95
 
 ap : access point 공유기 정보
+ui와 tcp 서버 연결 (process과 다를것이므로)
 
-현재 있는 코드 : 
+flask, tcp 통신
 
-1. 
-2. 
-3. 
+시계열 데이터 수집
