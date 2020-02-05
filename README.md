@@ -39,5 +39,6 @@
 <Disadvatage>
   - more complicated than method 2.
 
-### Tool
+### ect
 - (python) **twisted** : tcp 경량화 프레임워크
+- 주기 : 160ms + N/W
