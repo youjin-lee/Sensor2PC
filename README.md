@@ -18,6 +18,8 @@
  - **BLE**
 
 
+---------------------------
+
 ### 2. role of PC = Client, role of SENSOR = Host(AP)
 <div>
   <br> </br>
