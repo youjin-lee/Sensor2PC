@@ -4,12 +4,20 @@
 
 ### 1. role of PC = Host(AP), role of SENSOR = Client
 <div>
+  <br> </br>
   <img width="600" src = "https://user-images.githubusercontent.com/27392019/73799699-033dcf80-47fa-11ea-8e26-373eef145c5e.png">
  </div>
  
- - PC가 서버가 되고, Sensor가 클라이언트가 되는 경우
-  
+ - PC가 서버(Host)가 되고, Sensor가 클라이언트가 되는 경우
+ 
+ - **WiFi** : Sensor에서 Port number, AP 정보를 PC에 전달
+ 
+ - **BLE** :
+
+
+
 <div>
+  <br> </br>
   <img width="600" src = "https://user-images.githubusercontent.com/27392019/73799696-ffaa4880-47f9-11ea-8da0-8abf71765644.png">
  </div>
 
@@ -29,7 +37,3 @@ ui와 tcp 서버 연결 (process과 다를것이므로)
 flask, tcp 통신
 
 시계열 데이터 수집
-
-<div>
-  <img width="600" src = "https://user-images.githubusercontent.com/27392019/73799699-033dcf80-47fa-11ea-8e26-373eef145c5e.png">
- </div>
