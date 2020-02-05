@@ -1,8 +1,12 @@
 # Sensor2PC
 
-## :cactus: Starting
+## :cactus: Method of Connection
 
-
+### 1. role of PC = Host(AP), role of SENSOR = Client
+<div>
+  <img width="600" src = "https://user-images.githubusercontent.com/27392019/73799699-033dcf80-47fa-11ea-8e26-373eef145c5e.png">
+ </div>
+  * PC가 서버가 되고, Sensor가 클라이언트가 되는 경우
 <div>
   <img width="600" src = "https://user-images.githubusercontent.com/27392019/73799696-ffaa4880-47f9-11ea-8da0-8abf71765644.png">
  </div>
