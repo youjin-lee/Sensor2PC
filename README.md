@@ -10,13 +10,12 @@
  
  - PC가 서버(Host)가 되고, Sensor가 클라이언트가 되는 경우
  
- - **WiFi** : Sensor에서 Port number 등을 PC에 전달 
+ - **WiFi**
+ 1. Sensor에서 Port number 등을 공유기를 경유하여 PC에 전달 
+ 2. PC에서 Sensor가 접근할 수 있도록 TCP 서버 정보(AP:Access Point)를 공유기를 경유하여 제공
+ 3. Sensor에서 PC로 연결 (과정1,2는 서버 등록 과정에서만 필요)
  
- -> PC에서 Sensor가 접근할 수 있도록 TCP 서버 정보(AP:Access Point) 제공
- 
- -> Sensor에서 PC로 연결
- 
- - **BLE** :
+ - **BLE**
 
 
 ### 2. role of PC = Client, role of SENSOR = Host(AP)
@@ -27,9 +26,10 @@
 
  - PC가 클라이언트가 되고, Sensor가 Server(Host, AP mode) 되는 경우
  
- - **WiFi** : Sensor에서 Port number, AP 정보를 PC에 전달
+ - **WiFi**
+ 1. PC가 회로 연결을 통해 바로 Sensor에 접속
  
- - **BLE** :
+ - **BLE**
  
 ### :cherry_blossom: Decision : Method 1
 
